@@ -1,0 +1,148 @@
+.box {
+  min-height: 50px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* margin: 5px; */
+  font-size:30px;
+  font-weight: 800;
+  color: white;
+}
+
+.skyblue {
+  background: skyblue;
+}
+
+.white {
+  background: white;
+}
+
+.purple {
+  background: rebeccapurple;
+}
+
+.red {
+  background: indianred;
+}
+.img_100 {
+  max-width: 100%;
+}
+.img_50 {
+  max-width: 50%;
+}
+.box_2 {
+  min-height: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* margin: 5px; */
+  font-size:20px;
+  font-weight: 800;
+  color: skyblue;
+}
+
+.wrapper-text {
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 800;
+  color: rgb(100, 99, 99);
+}
+.top {
+  background-color: white;
+}
+
+
+.grey {
+  background-color: rgb(228, 233, 238);
+  /* margin-right: 0;
+  margin-left: 0; */
+}
+
+.darkgrey {
+  color: darkslategrey
+}
+
+
+
+
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background-color: lightgray;
+}
+
+
+
+h1 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.col-title {
+  /* min-height: 50px; */
+  padding:10px;
+  /* margin: 5px; */
+  font-size:25px;
+  font-weight: 800;
+  color: skyblue;
+}
+
+.fine-print {
+    /* min-height: 50px; */
+    padding:10px;
+    margin: 5px;
+    font-size:15px;
+    font-weight: 100;
+    color: black;
+}
+
+
+.container {
+  margin-top: 50px;
+}
+
+.col {
+  background-color: white;
+}
+
+
+.navbar-brand {
+  /* min-height: 50px; */
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  margin:0;
+  font-size:25px;
+  font-weight: 800;
+  background-color: skyblue;
+} 
+
+.navbar {
+  background-color: skyblue;
+  padding:0px;
+  margin:0px;
+}
+
+.navbar-collapse {
+  background-color: white;
+  padding-left:15px;
+}
+
+  
+@media (min-width: 768px){
+
+  
+  .navbar {
+    background-color: white;
+    padding:0px;
+    margin:0px;
+  }
+
+
+
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard: Temperature</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-light">
+    <a class="navbar-brand" href="index.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+            </div>
+          </li>
+  
+          <li class="nav-item active">
+            <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+          </li>
+  
+          <li class="nav-item active">
+            <a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
+          </li>
+
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> -->
+  
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+      </div>
+
+  </nav>
+
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="white">
+          <div class="col-title">
+            Latitude vs. Max Temperature
+          </div>
+          <img class="rounded float-left img_100" src="../Resources/assets/images/Fig1.png" alt="">
+          <!-- <div class="single-post-content-wrapper p-3 box_3"> -->
+          <div class="single-post-content-wrapper wrapper-text">
+
+            The earth's temperature peaks around equator(between latitude -20 and 0) and decreases roughly linearly as the absolute value of lantitude increases in both directions, north and south. The rate of declining is slower in southern hemisphere. This makes sense because of the obliquity of the earth and the angle of the sunlight hitting earth is more normal on the southern hemisphere. The temperature is higher when the sunlight hit the surface at a more normal angle. In another word, it is because the southern hemisphere is right now in summer.          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <div class="white">
+          <div class="col-title">
+            Visualization
+          </div> 
+          <div class="row"> 
+
+            <div class="col-sm-3 col-md-6">
+              <a href="temp.html">
+                <img class ="img_100" src="../Resources/assets/images/Fig1.png" >
+            </a>
+            </div>
+            <div class="col-sm-3 col-md-6">
+              <a href="humidity.html">
+                <img class ="img_100" src="../Resources/assets/images/Fig2.png" >
+            </a>
+            </div>
+          <!-- </div>        
+          <div class="row"> -->
+            <div class="col-sm-3 col-md-6">
+              <a href="cloudiness.html">
+                <img class ="img_100" src="../Resources/assets/images/Fig3.png" >
+            </a>
+            </div>
+            <div class="col-sm-3 col-md-6">
+              <a href="windspeed.html">
+                <img class ="img_100" src="../Resources/assets/images/Fig4.png" >
+            </a>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
